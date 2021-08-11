@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <h3>Thymeleaf属性</h3>
+            <form th:action="@{ ${url} }" th:method="${method}">
+                <input type="text" th:id="${id}" th:value="${name}">
+                <input type="submit" th:onclick="fun()" value="click">
+            </form>
+        </div>
+<script>
+    function fun() {
+        alert("button click")
+        
+    }
+</script>
+</body>
+</html>

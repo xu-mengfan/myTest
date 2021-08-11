@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" th:inline="javascript">
+        var name = [[${name}]];
+        var nick = [[${nick}]];
+        alert(name + "," + nick);
+    </script>
+</head>
+<body>
+        <div style="margin-left: 300px">
+
+            <p>cat的名称</p>
+            <!--cat?：先判断cat是否为null，如果为null，就执行到zoo就截止-->
+            <P th:text="${zoo?.cat?.name}"></P>
+
+            <h3>#dates</h3>
+            <p th:text="${#dates.format(mydate)}"></p>
+            <p th:text="${#dates.format(mydate,'yyyy-MM-dd HH:mm:ss')}"></p>
+            <p th:text="${#dates.day(mydate)}"></p>
+            <p th:text="${#dates.month(mydate)}"></p>
+            <p th:text="${#dates.monthName(mydate)}"></p>
+            <p th:text="${#dates.monthNameShort(mydate)}"></p>
+            <p th:text="${#dates.createNow()}"></p>
+
+            <br/>
+            <h3>#numbers</h3>
+            <p th:text="${mynum}"></p>
+            <p th:text="${#numbers.formatDecimal(mynum,5,2)}"></p>
+            <p th:text="${#numbers.formatCurrency(mynum)}"></p>
+
+            <br/>
+            <p>#string</p>
+            <p th:text="${mystr}"></p>
+            <p th:text="${#strings.toUpperCase(mystr)}"></p>
+            <p th:text="${#strings.substring(mystr,2,5)}"></p>
+
+            <br/>
+            <h3>#lists</h3>
+            <p th:text="${#lists.isEmpty(strlist)}"></p>
+            <p th:text="${#lists.isEmpty(aaa)}"></p>
+            <p th:text="${#lists.size(strlist)}"></p>
+
+        </div>
+
+</body>
+</html>

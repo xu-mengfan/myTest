@@ -1,0 +1,14 @@
+#Thymeleaf的默认值
+#模板的缓存 默认 true,访问效率高，开发中设置为false
+spring:
+  thymeleaf:
+    cache: false
+    #Thymeleaf使用的模板类型，默认HTML
+    mode: HTML
+    #默认的前缀
+    prefix: classpath:/templates/
+    #后缀
+    suffix: .html
+
+
+

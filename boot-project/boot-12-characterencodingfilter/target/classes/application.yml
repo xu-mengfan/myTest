@@ -1,0 +1,11 @@
+#解决中文乱码
+server:
+  port: 8000
+  servlet:
+    context-path: /myboot
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
+#    encoding:
+#      enabled: false

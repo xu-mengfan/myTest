@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <h3>eachArray</h3>
+            <div th:each="u:${users}">
+                <p th:text="${uStat.count}"></p>
+                <p th:text="${u.id}"></p>
+                <p th:text="${u.name}"></p>
+                <p th:text="${u.age}"></p>
+                <p th:text="${u.sex}"></p>
+            </div>
+
+            <br/>
+
+
+        </div>
+
+</body>
+</html>

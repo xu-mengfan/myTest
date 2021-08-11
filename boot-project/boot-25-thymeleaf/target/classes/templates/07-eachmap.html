@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <h3>eachMap</h3>
+            <div th:each="u:${users}">
+                <p th:text="${u.key}"></p>
+                <P th:text="${u.value}"></P>
+            </div>
+            <br/>
+            <br/>
+            <div th:each="u:${users}">
+                <p th:text="${u.key}"></p>
+                <P th:text="${u.value.name}"></P>
+                <P th:text="${u.value.age}"></P>
+            </div>
+
+
+        </div>
+
+</body>
+</html>

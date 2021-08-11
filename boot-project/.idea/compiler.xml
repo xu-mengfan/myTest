@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-02-first" />
+        <module name="boot-03-second" />
+        <module name="boot-04-third" />
+        <module name="boot-05-web" />
+        <module name="boot-06-multi-config" />
+        <module name="boot-07-config" />
+        <module name="boot-08-jsp" />
+        <module name="boot-09-commandline" />
+        <module name="boot-10-interceptor" />
+        <module name="boot-11-filter" />
+        <module name="boot-12-characterencodingfilter" />
+        <module name="boot-14-mybatis-1" />
+        <module name="boot-16-anno" />
+        <module name="boot-17-restful" />
+        <module name="boot-18-redis" />
+        <module name="boot-19-dubbo-interface" />
+        <module name="boot-20-dubbo-provider" />
+        <module name="boot-21-dubbo-consumer" />
+        <module name="boot-22-war" />
+        <module name="boot-23-jar" />
+        <module name="boot-24-thymeleaf" />
+        <module name="boot-25-thymeleaf" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-01-pre" target="1.5" />
+      <module name="boot-02-first" target="1.8" />
+      <module name="boot-03-second" target="1.8" />
+      <module name="boot-04-third" target="1.8" />
+      <module name="boot-05-web" target="1.8" />
+      <module name="boot-06-multi-config" target="1.8" />
+      <module name="boot-07-config" target="1.8" />
+      <module name="boot-08-jsp" target="1.8" />
+      <module name="boot-09-commandline" target="1.8" />
+      <module name="boot-10-interceptor" target="1.8" />
+      <module name="boot-11-filter" target="1.8" />
+      <module name="boot-12-characterencodingfilter" target="1.8" />
+      <module name="boot-14-mybatis-1" target="1.8" />
+      <module name="boot-15-mybatis-2" target="1.8" />
+      <module name="boot-16-anno" target="1.8" />
+      <module name="boot-16-mybatis-3" target="1.8" />
+      <module name="boot-17-restful" target="1.8" />
+      <module name="boot-18-redis" target="1.8" />
+      <module name="boot-19-dubbo-interface" target="1.5" />
+      <module name="boot-20-dubbo-provider" target="1.8" />
+      <module name="boot-21-dubbo-consumer" target="1.8" />
+      <module name="boot-22-war" target="1.8" />
+      <module name="boot-23-jar" target="1.8" />
+      <module name="boot-24-thymeleaf" target="1.8" />
+      <module name="boot-25-thymeleaf" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-02-first" options="-parameters" />
+      <module name="boot-03-second" options="-parameters" />
+      <module name="boot-04-third" options="-parameters" />
+      <module name="boot-05-web" options="-parameters" />
+      <module name="boot-06-multi-config" options="-parameters" />
+      <module name="boot-07-config" options="-parameters" />
+      <module name="boot-08-jsp" options="-parameters" />
+      <module name="boot-09-commandline" options="-parameters" />
+      <module name="boot-10-interceptor" options="-parameters" />
+      <module name="boot-11-filter" options="-parameters" />
+      <module name="boot-12-characterencodingfilter" options="-parameters" />
+      <module name="boot-14-mybatis-1" options="-parameters" />
+      <module name="boot-15-mybatis-2" options="-parameters" />
+      <module name="boot-16-anno" options="-parameters" />
+      <module name="boot-16-mybatis-3" options="-parameters" />
+      <module name="boot-17-restful" options="-parameters" />
+      <module name="boot-18-redis" options="-parameters" />
+      <module name="boot-20-dubbo-provider" options="-parameters" />
+      <module name="boot-21-dubbo-consumer" options="-parameters" />
+      <module name="boot-22-war" options="-parameters" />
+      <module name="boot-23-jar" options="-parameters" />
+      <module name="boot-24-thymeleaf" options="-parameters" />
+      <module name="boot-25-thymeleaf" options="-parameters" />
+    </option>
+  </component>
+</project>

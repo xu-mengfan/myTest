@@ -1,0 +1,10 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /myrest
+#启用过滤器，把post转成指定的请求方式
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true

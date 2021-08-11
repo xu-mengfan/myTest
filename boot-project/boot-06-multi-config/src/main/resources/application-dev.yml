@@ -1,0 +1,6 @@
+#开发环境
+
+server:
+  port: 8002
+  servlet:
+    context-path: /mydev

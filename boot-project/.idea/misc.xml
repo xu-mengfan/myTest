@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/boot-22-war" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/boot-02-first/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-03-second/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-04-third/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-05-web/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-06-multi-config/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-07-config/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-08-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-09-commandline/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-10-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-11-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-12-characterencodingfilter/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-14-mybatis-1/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-16-mybatis-3/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-16-anno/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-17-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-18-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-19-dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-20-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-21-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-23-war/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-22-war/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-23-jar/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-24-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-25-thymeleaf/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

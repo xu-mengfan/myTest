@@ -1,0 +1,12 @@
+server:
+  port: 8000
+  servlet:
+    context-path: /myboot
+spring:
+  redis:
+    #redis服务器的ip
+    host: localhost
+    #redis运行使用的端口号
+    port: 6379
+    #redis访问密码
+    #password: 123

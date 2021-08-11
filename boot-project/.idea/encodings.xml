@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/boot-02-first" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-03-second" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-04-third" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-05-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-06-multi-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-07-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-08-jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-09-commandline" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-10-interceptor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-11-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-12-characterencodingfilter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-14-mybatis-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-15-mybatis-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-16-anno" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-17-restful" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-18-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-20-dubbo-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-21-dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-22-war" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-23-jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-24-thymeleaf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-25-thymeleaf" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

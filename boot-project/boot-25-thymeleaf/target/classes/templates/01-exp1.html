@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <h3>标准变量表达式 ${key}</h3>
+            <!--th:text：获取${}表达式的值，显式/替换 到标签的文本中-->
+            <div th:text="${name}">显式name的值</div>
+            <br/>
+            <div th:text="${site}">显式site的值</div>
+            <br/>
+            <h3>显式对象的数据值${key.属性名}/${key.getXXX()}</h3>
+            <p th:text="${user.id}">显式id</p>
+            <p th:text="${user.name}">显式姓名</p>
+            <p th:text="${user.sex}">显式性别</p>
+            <p th:text="${user.age}">显式年龄</p>
+            <br/>
+            <p th:text="${user.getName()}"></p>
+            <p th:text="${user.getSex()}"></p>
+        </div>
+</body>
+</html>

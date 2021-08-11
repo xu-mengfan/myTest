@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="boot-22-war:war">
+    <output-path>$PROJECT_DIR$/boot-22-war/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>boot-22-war</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="myweb.war">
+      <element id="artifact" artifact-name="boot-22-war:war exploded" />
+    </root>
+  </artifact>
+</component>

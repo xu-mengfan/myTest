@@ -1,0 +1,5 @@
+#上线环境
+server:
+  port: 7002
+  servlet:
+    context-path: /myonline

@@ -1,0 +1,5 @@
+#如果项目中同时有.properties和.yml文件时，以.properties为准
+server:
+  port: 8006
+  servlet:
+    context-path: /myboot

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+            <h3>发起put请求，浏览器不能直接支持put，delete</h3>
+            <h3>在springBoot中使用一个过滤器，把浏览器发送的post请求，转变为put或delete</h3>
+            <h3>
+                1)在form或ajax请求中，增加一个参数 _method="put|delete"
+                2)指定form或ajax请求方式时 post
+            </h3>
+            <form action="student/1500/bj2102" method="post">
+                <input type="text" name="_method" value="put">
+                <input type="submit" value="提交post请求，在服务器转为put">
+            </form>
+</body>
+</html>

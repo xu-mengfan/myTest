@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" th:inline="javascript">
+        var name = [[${name}]];
+        var nick = [[${nick}]];
+        alert(name + "," + nick);
+    </script>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <!--if:true就显式标签和内容，反之不显示-->
+            <h3>inline=text</h3>
+            <!--th:inline="text"可以省略-->
+            <div th:inline="text">
+                <h3>我的姓名是：[[${name}]]</h3>
+                <br/>
+                <h5>昵称：[[${nick}]]</h5>
+            </div>
+
+            <p th:text="'我的姓名是：' + ${name}"></p>
+            <br/>
+            <p th:text="'大美女:'+${name} +',昵称是:'+${nick}"></p>
+            <p th:text="|大美女:${name},昵称是:${nick}|"></p>
+            <br/>
+
+            <p>三元运算符</p>
+            <p th:text="${login ? '显示登录':'需要登陆操作'}"></p>
+            <p th:text="${login ? (marry ? '登录用户已经结婚':'登陆的用户没有结婚'):'需要登陆操作'}"></p>
+
+        </div>
+
+</body>
+</html>

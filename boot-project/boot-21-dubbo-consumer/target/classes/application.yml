@@ -1,0 +1,17 @@
+#指定服务名称
+spring:
+  application:
+    name: dubbo-consumer
+
+#定义注册中心
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181
+    #配置消费者默认值
+  consumer:
+    check: false
+    timeout: 8000
+    retries: 0
+
+
+

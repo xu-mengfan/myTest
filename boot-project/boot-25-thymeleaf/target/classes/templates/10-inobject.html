@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" th:inline="javascript">
+        var name = [[${name}]];
+        var nick = [[${nick}]];
+        alert(name + "," + nick);
+    </script>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <h3>内置对象#request</h3>
+            <p th:text="${#request.getAttribute('name')}">显式request中的数据</p>
+            <p th:text="${#request.getContextPath()}">访问路径</p>
+            <p th:text="${#request.getRequestURL()}">request url</p>
+            <p th:text="${#request.getRequestURI()}">request uri</p>
+            <br/>
+            <h3>内置对象#session</h3>
+            <p th:text="${#session.getAttribute('myName')}"></p>
+            <p th:text="${#session.getId()}"></p>
+            <p th:text="${#session.getCreationTime()}"></p>
+            <br/>
+            <h3>session</h3>
+            <p th:text="${session.myName}"></p>
+
+        </div>
+
+</body>
+</html>

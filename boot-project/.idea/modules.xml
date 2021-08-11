@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-02-first/boot-02-first.iml" filepath="$PROJECT_DIR$/boot-02-first/boot-02-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-03-second/boot-03-second.iml" filepath="$PROJECT_DIR$/boot-03-second/boot-03-second.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-04-third/boot-04-third.iml" filepath="$PROJECT_DIR$/boot-04-third/boot-04-third.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-05-web/boot-05-web.iml" filepath="$PROJECT_DIR$/boot-05-web/boot-05-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-06-multi-config/boot-06-multi-config.iml" filepath="$PROJECT_DIR$/boot-06-multi-config/boot-06-multi-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-07-config/boot-07-config.iml" filepath="$PROJECT_DIR$/boot-07-config/boot-07-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-08-jsp/boot-08-jsp.iml" filepath="$PROJECT_DIR$/boot-08-jsp/boot-08-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-09-commandline/boot-09-commandline.iml" filepath="$PROJECT_DIR$/boot-09-commandline/boot-09-commandline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-10-interceptor/boot-10-interceptor.iml" filepath="$PROJECT_DIR$/boot-10-interceptor/boot-10-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-11-filter/boot-11-filter.iml" filepath="$PROJECT_DIR$/boot-11-filter/boot-11-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-12-characterencodingfilter/boot-12-characterencodingfilter.iml" filepath="$PROJECT_DIR$/boot-12-characterencodingfilter/boot-12-characterencodingfilter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-14-mybatis-1/boot-14-mybatis-1.iml" filepath="$PROJECT_DIR$/boot-14-mybatis-1/boot-14-mybatis-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-16-anno/boot-16-anno.iml" filepath="$PROJECT_DIR$/boot-16-anno/boot-16-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-17-restful/boot-17-restful.iml" filepath="$PROJECT_DIR$/boot-17-restful/boot-17-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-18-redis/boot-18-redis.iml" filepath="$PROJECT_DIR$/boot-18-redis/boot-18-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-19-dubbo-interface/boot-19-dubbo-interface.iml" filepath="$PROJECT_DIR$/boot-19-dubbo-interface/boot-19-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-20-dubbo-provider/boot-20-dubbo-provider.iml" filepath="$PROJECT_DIR$/boot-20-dubbo-provider/boot-20-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-21-dubbo-consumer/boot-21-dubbo-consumer.iml" filepath="$PROJECT_DIR$/boot-21-dubbo-consumer/boot-21-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-22-war/boot-22-war.iml" filepath="$PROJECT_DIR$/boot-22-war/boot-22-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-23-jar/boot-23-jar.iml" filepath="$PROJECT_DIR$/boot-23-jar/boot-23-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-24-thymeleaf/boot-24-thymeleaf.iml" filepath="$PROJECT_DIR$/boot-24-thymeleaf/boot-24-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-25-thymeleaf/boot-25-thymeleaf.iml" filepath="$PROJECT_DIR$/boot-25-thymeleaf/boot-25-thymeleaf.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <!--if:true就显式标签和内容，反之不显示-->
+            <h3>ifunless</h3>
+            <p>th:if</p>
+            <p th:if="10 > 5">10大于5</p>
+            <p th:if="${name == 'lisi'}">是李四</p>
+            <p th:if="${login}">登录系统</p>
+            <p th:if="${marry}">已经结婚</p>
+            <p th:if="true">true</p>
+            <p th:if="${nick}">nick</p>
+            <!--1 -1都为true 0 为false-->
+            <p th:if="0">000</p>
+            <br/>
+            <!--unless：假就显示标签内容，真就不显示-->
+            <p th:unless="${marry}">没有结婚</p>
+            <br/>
+
+            <p>switch-case</p>
+            <div th:switch="${name}">
+                <p th:case="zhangsan">zhangsan</p>
+                <p th:case="lisi">lisi</p>
+                <p th:case="wangwu">显式王五</p>
+                <p th:case="*">其他</p>
+            </div>
+
+
+        </div>
+
+</body>
+</html>

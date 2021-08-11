@@ -1,0 +1,4 @@
+#指定使用的环境文件
+spring:
+  profiles:
+    active: test

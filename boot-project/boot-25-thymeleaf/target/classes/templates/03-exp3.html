@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <div style="margin-left: 300px">
+            <h3>链接变量表达式 @{url}</h3>
+            <p>链接到绝对路径</p>
+            <a th:href="@{http://www.baidu.com}">链接到百度</a>
+            <br/>
+            <!--
+                <a href="@{http://www.baidu.com}">链接到百度2</a>
+            -->
+
+            <p>链接到相对地址</p>
+            <a th:href="@{/query/account}">链接到query/account地址</a>
+            <p>传递参数1</p>
+            <a th:href="@{'/query/account?id=1001'}">链接到query/account地址</a>
+            <br/>
+            <!--动态处理id-->
+            <a th:href="@{'/query/account?id='+${stuId}}">链接到query/account地址</a>
+            <br/>
+            <p>传递参数2</p>
+            <a th:href="@{/query/account(id=${stuId})}">链接query/account</a>
+            <br/>
+
+            <p>传递多个参数</p>
+            <a th:href="@{/find/student(name=${name},schoolname=${schoolname})}">链接find/student</a>
+
+
+
+        </div>
+</body>
+</html>

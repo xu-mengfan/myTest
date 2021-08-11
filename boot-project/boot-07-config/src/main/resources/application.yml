@@ -1,0 +1,12 @@
+#自定义配置
+
+school:
+  name: 动力节点
+  address: 北京大兴区
+  site: www.bjpowernode.com
+
+
+server:
+  port: 8000
+  servlet:
+    context-path: /myboot
